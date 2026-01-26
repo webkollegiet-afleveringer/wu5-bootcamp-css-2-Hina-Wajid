@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "newspaper";
+    /* name of the font to be used */
+    src: url(../font/Newsreader-VariableFont_opsz\,wght.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "newspaper";
+    src: url(../font/Newsreader-Italic-VariableFont_opsz\,wght.ttf);
+    font-style: italic;
+}
+
+html,
+body
+
+/* setting font to whole html */
+/* Ensure consistent font rendering */
+    {
+    font-family: "newspaper", sans-serif;
+
+}
+
+input,
+textarea,
+button
+
+/* Elements, who does not automatically inerit font from html and body, we assign font here*/
+    {
+
+    font-family: "newspaper", sans-serif;
+
+}
+
+
+
+
+

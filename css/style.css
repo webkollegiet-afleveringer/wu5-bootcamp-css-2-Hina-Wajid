@@ -1,0 +1,11 @@
+/* connecting another css file to this css files*/
+
+@import url(resets.css);
+/* RESETS & LAYOUT */
+@import url(typography.css);
+/* FONT TYPE STYLE AND SIZE */
+@import url(header.css);
+/* HEADER */
+@import url(footer.css);
+/* FOOTER */
+
