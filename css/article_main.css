@@ -1,0 +1,164 @@
+/* annouce */
+.figcaption__text-direction
+{
+    writing-mode: vertical-lr;
+    /* transform: rotateZ(90deg); Joshuwa's approach*/ 
+  
+    
+}
+.figure--announce
+{
+    justify-content: center;
+    text-align: center;
+
+}
+/* grid-template-columns: 30% 70%; */
+
+.image__icon--camera::before
+{
+content: url(../img/svg/camera-solid-full.svg);
+display: block;
+height: 1rem;
+width: 1rem;
+}
+
+.some_icons
+{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.image__icon--email::before
+{
+content: url(../img/svg/envelope-regular-full.svg);
+display: block;
+height: 1rem;
+width: 1rem;
+}
+.comments::before
+{
+content: url(../img/svg/comments-regular-full.svg);
+display: inline-block;
+height: 1rem;
+width: 1rem;
+
+}
+.dotter-bottom,.dotted-line,.dotted2
+{
+    border-bottom: 1px dotted black;
+    height: 1rem;
+    display: block;
+
+}
+.small-bar
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container
+{
+    display: grid;
+    /* grid-template-columns: 10% auto; */
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+    grid-template-rows: repeat(10,auto);
+    
+}
+
+.side-main /* aside */
+{
+    display: grid;
+    /* grid-template-columns: subgrid; */
+    grid-template-rows: subgrid;
+    grid-row: 3 / -1;
+;
+}
+
+.row-1
+{
+    /* margin-top: auto; */
+}
+/* .row-2
+{
+
+display: flex;
+flex-direction: column;
+gap: 3rem;
+
+} */
+.figcaption__side-main
+{
+   
+    grid-row: 2;
+    /* margin-block: auto; */
+    
+}
+
+
+.small-bar,.row-5
+{
+
+    grid-row: 6;
+ 
+}
+
+.hvem-context
+{
+       display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+}
+.main-context
+{
+     display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 10;
+
+}
+.whom-sidemain
+{
+    
+    grid-row: 5;
+    
+}
+.row-2
+{
+   
+     display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 10;
+
+}
+
+.underline_section2
+{
+   grid-row:5;
+}
+
+
+.container-more-context
+{
+position: relative;   
+font-size: 1rem;
+}
+
+.the-more-context
+{
+
+
+}
+.f-t-e
+{
+
+}
+.slightly-more-context
+{
+
+}
+
+.container-more-context::after
+{
+    content: "";
+    background: linear-gradient(to);
+}

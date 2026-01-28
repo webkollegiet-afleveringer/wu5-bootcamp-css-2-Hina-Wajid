@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <script src="js/script.js" defer></script>
     <title>Information</title>
 </head>
+
 <body>
     <header>
         <div class="header-container">
@@ -14,29 +16,33 @@
             <div class="search-burg-menu">
                 <figure class="burger-menu">
                     <img src="img/svg/hamburger-menu-svgrepo-com.svg" alt="burger menu">
-                    <figcaption><p>Menu</p></figcaption>
+                    <figcaption>
+                        <p>Menu</p>
+                    </figcaption>
                 </figure>
-                <button class="header__button--search"><img src="img/svg/magnifying-glass-solid-full.svg" alt="Search icon">
+                <button class="header__button--search"><img src="img/svg/magnifying-glass-solid-full.svg"
+                        alt="Search icon">
                 </button>
                 <div class="input-header">
                     <input type="text" class="search">
                 </div>
                 <!-- when clicked it makes a search bar from the right to left i mean it has 0% from start until its pushed into 100% width in css -->
             </div>
-            
-          
-                <h1 class="header__h1--logo">Information</h1>
-        
-            <div>
-                <a href="#">Login <img src="img/svg/user-solid-full.svg" alt="login-icon"></a>
+
+
+            <h1 class="header__h1--logo">Information</h1>
+
+            <div class="login__user">
+                <a class="flex_display" href="#">Login <img class="img__user_login" src="img/svg/user-solid-full.svg"
+                        alt="login-icon"></a>
             </div>
         </div>
         <div class="links-header">
             <!-- eventuelt lave navne om -->
-            <nav>
-                <ul>
+            <nav class="flex_display">
+                <ul class="flex_display navigation__ul--li">
                     <li>
-                       <a href="#">Nyhedsbreve</a>
+                        <a href="#">Nyhedsbreve</a>
                     </li>
                     <li>
                         <a href="#">Podcast</a>
@@ -50,112 +56,114 @@
     </header>
     <main>
         <div>
-            <figure>
-                <img src="img/the almightly placeholder.png" alt="img placeholder">
-                <figcaption>
+            <figure class="flex_display figure--announce">
+                <img src="img/image_9007977.png" alt="img placeholder">
+                <figcaption class="figcaption__text-direction">
                     Announce
                 </figcaption>
                 <!-- hav billedet verticalt og brug rotate til at få den horizontalt, og brug det også på figcaption, eller måske tænk for en gang skyld -->
             </figure>
         </div>
-        
+
         <div class="main-container">
-            <aside class="side-main">
-                <div>
-                <small class="small-context">
-                   Rusland vil ikke bruge gasrørledningen,
-                   Nord Stream 2, som politisk våben, lyder
-                   det fra folkene bag projekt.
-                   Rørledningen koster 70 mia. kr. og vil
-                   sende 55 mia. kubikmeter gas ind i Europa
-                   om året
-                </small>
-                    <small>
+            <aside class="side-main">   
+                <div class="figcaption__side-main">
+                    <small class="small-context">
+                        Rusland vil ikke bruge gasrørledningen,
+                        Nord Stream 2, som politisk våben, lyder
+                        det fra folkene bag projekt.
+                        Rørledningen koster 70 mia. kr. og vil
+                        sende 55 mia. kubikmeter gas ind i Europa
+                        om året
+                    </small>
+                    <small class="image__icon--camera">
                         Peter Nygaard Christensen
                     </small>
-                    </div>
- 
-                
-                
-                    <div class="hvem-context">
-                   
-                    <p>Udland</p>
+                </div>
+
+
+
+                <div class="hvem-context">
+
+                    <p class="red-text ">Udland</p>
                     <small class="dotted-line">
-                   
-                    <!-- just a placeholder dots -->
+
+                        <!-- just a placeholder dots -->
                     </small>
-                   
+
                     <div class="whom-sidemain">
-                        <img src="placeholder-person" alt="person">
-                        
+                        <img src="img/image_jakob.png" alt="person">
+
                         <div class="whom-container">
                             <p>Jakob Stein</p>
                             <div>
-                                <img src="img/yahoo-mail-icon-32194.png" alt="mail"><a href="#">Email</a>
+                                <img class="some_icons" src="img/svg/envelope-regular-full.svg" alt="mail"><a href="#">Email</a>
                             </div>
                             <div>
-                                    <img src="img/logo-twitter-png-47449.png" alt="Twitter icon"><a href="#">Twitter</a>
+                                <img class="some_icons" src="img/svg/twitter-brands-solid-full.svg" alt="Twitter icon"><a href="#">Twitter</a>
                             </div>
                         </div>
                         <div class="sum-dude">
                             <p>
                                 Peter Nygaard Christensen
                             </p>
-                            <a href="#">Email</a>
+                            <a class="image__icon--email" href="#">Email</a>
                         </div>
                     </div>
                 </div>
             </aside>
             <div class="main-context">
-                <small>
+        
+                <small class="row-1">
                     <span class="red-text">
                         Abonnement
                     </span>
                     Læsetid: 7 Mins
                 </small>
-                <section>
+                <section class="row-2">
                     <h2 class="context">
                         Gas er et godt politisk våben. Det er bare ikke Putin, der bruger det
                     </h2>
                     <!-- bare en placeholder, ved ikke hvad der skal blive skrevet om -->
-                     <p>
-                        Nogle EU-lande frygter, at Rusland kan bruge Nord Stream 2 som politisk våben mod Europa. Men ivirkeligheden er det omvendt, mener firmaerne bag rørledningen: Det er EU, der bruger gassen som våben over for Putin. Information har været på charmetur med den russike gas' europæiske venner  
+                    <p>
+                        Nogle EU-lande frygter, at Rusland kan bruge Nord Stream 2 som politisk våben mod Europa. Men
+                        ivirkeligheden er det omvendt, mener firmaerne bag rørledningen: Det er EU, der bruger gassen
+                        som våben over for Putin. Information har været på charmetur med den russike gas' europæiske
+                        venner
                     </p>
-                     <figure>
-                        <img src="img/the almightly placeholder.png" alt="placeholder :)">
-                     </figure>
-                     <div>
-                     <small class="right-side-time">
-                        7. Maj 2018
-                     </small>
-                     <small class="comments">
-                        Kommentarer (2)
-                     </small>
+                
+                    <figure class="row-3">
+                        <img src="img/dinner.jpg" alt="dinner">
+                    </figure>
+                    <div class="row-4">
+                        <small class="right-side-time">
+                            7. Maj 2018
+                        </small>
+                        <small class="comments">
+                            Kommentarer (2)
+                        </small>
                     </div>
-                    <small class="dotted2">
-                       
+                    <small class="dotted2 underline_section2">
+
                         <!-- placeholder for dots -->
                     </small>
-                    <div class="container-more-context">
+                    <div class="container-more-context row-5">
                         <p class="the-more-context">
                             >>Jeg tænker, at vi lige taler os varme sammen,
-                            før vi begynder på interviewet, << siger Jens Müller,
-                            talsperson for det russike gasfirma
-                            Nord Stream 2 AG. VI sidder en gruppe
-                            journalister i en bus på vej til en gasterminal i
- 
-                        </p>
-                        <div class="f-t-e">
-                            <button><img src="img/facebook-icon-png-774.png" alt="facebook">DEL</button>
-                            <button><img src="img/logo-twitter-png-47449.png" alt="placeholder½">TWITTER</button>
-                            <button>@ EMAIL</button>
-                            <!-- tanken her var at en popup eller noget skulle dukke op fra bunden eller noget eller bare lade dette være idk -->
-                        </div>
-                        <p class="slightly-more-context">
-                            Rotterdamn, inviteret af folkene bag den
-                            kommende russike gasrørledning. Nord Stream 2 (NS2), der efter planen skal krydse
-                            dansk farvand
-                        </p>
+                            før vi begynder på interviewet, << siger Jens Müller, talsperson for det russike gasfirma
+                                Nord Stream 2 AG. VI sidder en gruppe journalister i en bus på vej til en gasterminal i
+                                </p>
+                                <div class="f-t-e">
+                                    <button><img class="some_icons" src="img/svg/facebook-f-brands-solid-full.svg" alt="facebook">DEL</button>
+                                    <buttn><img class="some_icons" src="img/svg/twitter-brands-solid-full.svg" alt="placeholder½">TWITTER</buttn>
+                                    <button>@ EMAIL</button>
+                                    <!-- tanken her var at en popup eller noget skulle dukke op fra bunden eller noget eller bare lade dette være idk -->
+                                </div>
+                                <p class="slightly-more-context">
+                                    Rotterdamn, inviteret af folkene bag den
+                                    kommende russike gasrørledning. Nord Stream 2 (NS2), der efter planen skal krydse
+                                    dansk farvand
+                                </p>
                     </div>
                     <!-- denne element nedenunder skal være, du ved fysik over slightly more context element classe -->
                     <div class="blablabla-center">
@@ -173,13 +181,13 @@
                 </section>
             </div>
         </div>
-        <!-- dis is main container, do not touch or it will break everything >:( -->
+<!-- dis is main container, do not touch or it will break everything >:( -->
         <section class="laes">
             <h2 class="red-text laest">
                 Fik du læst?
             </h2>
             <div class="arrows">
-                <img src="img/arrow.png" alt="pil" >
+                <img src="img/arrow.png" alt="pil">
                 <img src="img/arrow.png" alt="pil">
             </div>
             <div class="dot dot dot dot"></div>
@@ -188,13 +196,13 @@
             <figure>
                 <img src="img/the almightly placeholder.png" alt="placholder billede">
                 <figcaption>
-                <p>
-                    Alternativ forbrødring, eller
-                    hvordan jeg lærte at holde
-                    op med at bekymre mig og
-                    elske jazzhænder
-                </p>
-            </figcaption>
+                    <p>
+                        Alternativ forbrødring, eller
+                        hvordan jeg lærte at holde
+                        op med at bekymre mig og
+                        elske jazzhænder
+                    </p>
+                </figcaption>
             </figure>
             <figure>
                 <img src="img/the almightly placeholder.png" alt="placeholder">
@@ -202,8 +210,7 @@
                     <p>
                         >>Jeg måtte ud på det dybe
                         band for at nå til et nyt
-                        land<<
-                    </p>
+                        land<< </p>
                 </figcaption>
             </figure>
             <figure>
@@ -236,7 +243,7 @@
             </small>
         </div>
         <div class="dotsdotty">
-           
+
             <!-- placeholder noget -->
         </div>
         <div class="before-container">
@@ -244,12 +251,12 @@
                 <ul class="seneste-liste">
                     <li>
                         <small class="lightgrey-text">
-                    16:36
-                </small>
-                <p>
-                    Slut med møntbetaling i
-                    københavnske p-automater
-                </p>
+                            16:36
+                        </small>
+                        <p>
+                            Slut med møntbetaling i
+                            københavnske p-automater
+                        </p>
                     </li>
                     <li>
                         <small class="lightgrey-text">
@@ -283,7 +290,7 @@
                             15:02
                         </small>
                         <p>
-                            WFF:Vildsvinehegn  skader
+                            WFF:Vildsvinehegn skader
                             andre dyrearter i grænselandet
                         </p>
                     </li>
@@ -298,7 +305,7 @@
                     </li>
                 </ul>
                 <div class="dottydotsen">
- 
+
                 </div>
                 <p>
                     Flere nyheder
@@ -306,10 +313,10 @@
             </div>
             <div class="abonnetment-container">
                 <!-- 3 rows and four columns duh -->
-                 <h2>
+                <h2>
                     Forsiden lige nu
-                 </h2>
-                 <section class="row-one-column-two">
+                </h2>
+                <section class="row-one-column-two">
                     <h3 class="red-text">
                         ABONNEMENT
                     </h3>
@@ -319,14 +326,14 @@
                         Det er bare ikke Putin, der
                         bruger det
                     </p>
-                 </section>
-                 <div class="row-two-column-two">
+                </section>
+                <div class="row-two-column-two">
                     <img src="mand.png" alt="mand dig op">
                     <p>
                         Mand dig op, Kvinde!
                     </p>
-                 </div>
-                 <section class="row-three-column-two">
+                </div>
+                <section class="row-three-column-two">
                     <h3>
                         Peter Madsen anker kun
                         lægden af sin straf
@@ -335,8 +342,8 @@
                         Ankesagen mod Peter MadsenKommer kun til at handle om, hvilken
                         straf han skal have
                     </p>
-                 </section>
-                 <section class="row-one-column-three">
+                </section>
+                <section class="row-one-column-three">
                     <h3 class="red-text">
                         ABONNEMENT
                     </h3>
@@ -347,8 +354,8 @@
                         tvivl om lovligheden af FE's
                         masseovervågning
                     </p>
-                 </section>
-                 <section class="row-two-column-three">
+                </section>
+                <section class="row-two-column-three">
                     <h3 class="red-text">
                         ABONNEMENT
                     </h3>
@@ -369,8 +376,8 @@
                         grænser for at finde inspiration til
                         justeringer
                     </p>
-                 </section>
-                 <section class="row-three-column-three">
+                </section>
+                <section class="row-three-column-three">
                     <h3 class="red-text">
                         ABONNEMENT
                     </h3>
@@ -381,7 +388,7 @@
                         fortsætter. VI har fulgt en af
                         dem
                     </h4>
-                 </section>
+                </section>
             </div>
         </div>
         <div class="container-kommentarer-anbefallinger">
@@ -413,7 +420,8 @@
                         </div>
                         <div>
                             <p>
-                                Hvis det forholder sig som skrevet står at Rusland for mest ud af nord stream 2 forstår jeg
+                                Hvis det forholder sig som skrevet står at Rusland for mest ud af nord stream 2 forstår
+                                jeg
                                 slet ikke politkerne og måske specielt EU ikke bruger muligheden aktivt til presse
                                 endsige fortælle PUTIN at ruslands opførsel i Ukraine ikke kan accepteres kommer der
                                 ikke penge i kassen kan obligarkerne ikke fodres!
@@ -425,7 +433,7 @@
                     </div>
                 </div>
                 <div class="gert">
-                        <div class="profil-tid">
+                    <div class="profil-tid">
                         <img src="img/profil.png" alt="profil-billede">
                         <div class="container-profil">
                             <p>
@@ -450,13 +458,15 @@
                                 mindst en gang mente Rusland, at de vestlige aftagerlande burde straffe??? -Ukraina.
                             </p>
                             <p>
-                                I øvrigt så jeg i eftermiddags tidligere SPD-medlem, tidligere Forbundskanzler og tidligere
+                                I øvrigt så jeg i eftermiddags tidligere SPD-medlem, tidligere Forbundskanzler og
+                                tidligere
                                 Gerhard Schröder sidde på de fine pladser under Vladimir Putins indsættelses-show. Det
                                 var på RT (RussiaToday), der er Vladimir Putins personlige popaganda-kanal der også
-                                sikrer "det frie ord" i verden. Det så ud til, det var meget vigtigt for Putin og RT, for der var
+                                sikrer "det frie ord" i verden. Det så ud til, det var meget vigtigt for Putin og RT,
+                                for der var
                                 hele tiden fokus på en tidligere Hr. Schröder.
                             </p>
- 
+
                             <button>
                                 Anbefal kommentar
                             </button>
@@ -465,7 +475,8 @@
                 </div>
                 <div>
                     <p class="grey-text">
-                        DU skal være registreret bruger for at kommentere. <a href="#">Log ind</a> eller <a href="#">opret bruger</a>
+                        DU skal være registreret bruger for at kommentere. <a href="#">Log ind</a> eller <a
+                            href="#">opret bruger</a>
                     </p>
                 </div>
             </section>
@@ -574,7 +585,7 @@
                     <li>
                         Økonomi og ledelse
                     </li>
- 
+
                     <li>
                         Hosted hos Sentia
                     </li>
@@ -584,7 +595,8 @@
         <div class="dotted-line-footer">
             <div class="end-footer">
                 <p>
-                Ansvarshøvende chefredaktør. Rune Lykkeberg | Dagbaldet Information, Store Kongensgade 40C, 1264 Københaven, Telefon 3369 6000 | CVR: 63058416
+                    Ansvarshøvende chefredaktør. Rune Lykkeberg | Dagbaldet Information, Store Kongensgade 40C, 1264
+                    Københaven, Telefon 3369 6000 | CVR: 63058416
                 </p>
                 <p>
                     Privatlivspolitik | Cookies | Annoncering
@@ -596,5 +608,5 @@
         </div>
     </footer>
 </body>
+
 </html>
- 
