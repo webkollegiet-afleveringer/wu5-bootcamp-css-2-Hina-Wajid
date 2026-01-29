@@ -264,3 +264,7 @@ margin-block: 4rem;
       grid-row: 1;
     grid-column: 1 / -1;
 }
+.container-profil>p
+{
+    padding:10px;
+}
