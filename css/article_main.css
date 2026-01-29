@@ -255,11 +255,12 @@ margin-block: 4rem;
 .abonnetment-container
 {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
 }
 
-.row-one-column-two
+.over-top-heading
 {
-   
+      grid-row: 1;
+    grid-column: 1 / -1;
 }
