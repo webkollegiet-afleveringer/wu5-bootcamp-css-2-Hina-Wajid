@@ -1,0 +1,59 @@
+/* connecting another css file to this css files*/
+
+@import url(resets.css);
+/* RESETS & LAYOUT */
+@import url(typography.css);
+/* FONT TYPE STYLE AND SIZE */
+@import url(header.css);
+/* HEADER */
+@import url(article_main.css);
+/* main */
+
+@import url(footer.css);
+/* FOOTER */
+
+.flex_display
+{
+    display: flex;
+}
+.grid_display
+{
+    display: grid;
+}
+
+
+main
+{
+    margin-inline: auto;
+    max-width: 1024px;
+}
+.red-text
+{
+    color: red;
+}
+.grey-text
+{
+    color: #b0afaf;
+
+}
+.lightgrey-text
+{
+      color: #b0afaf;
+}
+.grey-button
+{
+    display:inline-block ;
+    height: 50px;
+    width: 100px;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    align-content: center;
+
+    
+}
+.button-noget
+{
+    background-color: red;
+}
