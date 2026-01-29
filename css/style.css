@@ -31,3 +31,29 @@ main
 {
     color: red;
 }
+.grey-text
+{
+    color: #b0afaf;
+
+}
+.lightgrey-text
+{
+      color: #b0afaf;
+}
+.grey-button
+{
+    display:inline-block ;
+    height: 50px;
+    width: 100px;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    align-content: center;
+
+    
+}
+.button-noget
+{
+    background-color: red;
+}

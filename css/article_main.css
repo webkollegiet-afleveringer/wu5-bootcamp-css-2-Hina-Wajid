@@ -141,24 +141,125 @@ gap: 3rem;
 {
 position: relative;   
 font-size: 1rem;
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+
 }
 
 .the-more-context
 {
 
 
+
 }
 .f-t-e
 {
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.fb 
+{
+    background-color: rgb(45, 45, 114);
 
 }
+.tweet
+{
+    background-color: rgb(122, 122, 151);
+}
+
 .slightly-more-context
 {
 
 }
+.some-button
+{
+    display:inline-block ;
+    height: 50px;
+    width: 100px;
+
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    align-content: center;
+
+}
+
+
 
 .container-more-context::after
 {
     content: "";
-    background: linear-gradient(to);
+    background: linear-gradient(to top,white , transparent);
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:70%;
+
+}
+.blablabla-center
+{
+    margin: 2rem;
+    text-align: center;
+}
+/* ----------læs------------- */
+.laes
+{
+    display: grid;
+}
+.under-main-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.information-web
+{
+    grid-column: 4;
+    margin-top: 100px;
+}
+.h2-senest
+{
+     margin-top: 100px;
+}
+.under-main-container>figure{
+    
+}
+.under-main-container>figure>figcaption>p
+{
+    padding: 0.50rem;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.seneste-liste>li>p
+{
+ padding: 0.50rem;
+    font-weight: bolder;
+}
+/* --------------------------------------------------- */
+
+.container-kommentarer-anbefallinger,.before-container
+{
+display: grid;
+grid-template-columns: 1fr 3fr;
+/* grid-template-rows: repeat(5,1fr); */
+gap: 1rem;
+margin-block: 4rem;
+}
+
+/* ------abonment----- */
+
+.abonnetment-container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+.row-one-column-two
+{
+   
 }

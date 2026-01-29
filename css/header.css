@@ -51,6 +51,9 @@ grid-template-columns: 1fr 1fr 1fr; */
   gap: 1rem;
 }
 
+.navigation__ul--li a{
+  color: unset;
+}
 .red-text {
   color: brown;
 }
@@ -67,3 +70,4 @@ a:visited {
   height: 2rem;
   aspect-ratio: 18/18;
 }
+

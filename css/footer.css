@@ -1,0 +1,27 @@
+.footer-container
+{
+display: grid;
+grid-template-columns: repeat(4,auto);
+/* position: relative; */
+gap: 1rem;
+   margin-inline: auto;
+    max-width: 1024px;
+ 
+
+}
+.footer-styling
+{
+    background-color: rgb(170, 167, 167);
+   
+}
+.dotted-line-footer
+{
+    border-top: 1px solid white;
+    text-align: center;
+}
+
+.avis-footer
+{
+transform: translateY(-30px);
+    /* position: absolute; */
+}
